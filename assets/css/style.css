@@ -1,0 +1,138 @@
+/* Styles communs à toutes les pages */
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ecf0f1;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 70px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: auto;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: underline;
+  color: white;
+}
+
+.social-icons img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+/* Styles spécifiques à la page d'accueil */
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("assets/img/background-image.png") center/cover no-repeat
+    fixed;
+  color: white;
+}
+
+.centered-content {
+  text-align: center;
+}
+
+.centered-content h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+.centered-content img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+/* Styles spécifiques à la page galerie */
+.gallery {
+  text-align: center;
+}
+
+.category-link {
+  margin: 10px;
+  cursor: pointer;
+  color: #c0392b;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 10px;
+}
+
+/* Styles spécifiques à la page tarifs et prestations */
+.pricing {
+  text-align: center;
+}
+
+.pricing ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing li {
+  margin: 20px 0;
+  background-color: #9b59b6;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Styles spécifiques à la page contact */
+.contact {
+  text-align: center;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact label {
+  display: block;
+  margin: 10px 0;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  box-sizing: border-box;
+}
+
+.contact input[type="submit"] {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
